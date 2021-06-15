@@ -23,7 +23,7 @@ jobs:
 
       - name: Prepare Release Variables
         id: vars
-        uses: tendermint/starport/actions/release/vars@develop
+        uses: tendermint/starport/actions/release/vars@feat/action
 
       - name: Issue Release Assets
         uses: tendermint/starport/actions/cli@feat/action
